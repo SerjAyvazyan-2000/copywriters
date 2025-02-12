@@ -125,33 +125,8 @@ function handleScroll() {
 window.addEventListener('scroll', handleScroll);
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth >= 1200 ){
-        let elem = document.querySelector('.reviews-items');
-        let msnry = new Masonry(elem, {
-            itemSelector: '.reviews-item',
-            columnWidth: 20,
-            gutter: 20,
-            percentPosition: true,
-
-        });
-    }
 
 
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    const button = document.querySelector('.reviews-btn');
-    const reviewsList = document.querySelector('.reviews-items');
-    const  reviewCnt= document.querySelector('.reviews-cnt');
-
-    button.addEventListener('click', function() {
-        reviewsList.classList.toggle('active');
-        button.classList.toggle('active');
-        reviewCnt.classList.toggle('active');
-
-    });
-});
 
 
 
