@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-logo{
+    mask-image: url(logo.svg);
+    -webkit-mask-image: url(logo.svg);
+}
+.icon-star{
+    mask-image: url(star.svg);
+    -webkit-mask-image: url(star.svg);
+}
+.icon-possibilities1{
+    mask-image: url(possibilities1.svg);
+    -webkit-mask-image: url(possibilities1.svg);
+}
+.icon-possibilities2{
+    mask-image: url(possibilities2.svg);
+    -webkit-mask-image: url(possibilities2.svg);
+}
+.icon-possibilities3{
+    mask-image: url(possibilitiesIcon3.svg);
+    -webkit-mask-image: url(possibilitiesIcon3.svg);
+}
+
+.icon-possibilities4{
+    mask-image: url(possibilities4.svg);
+    -webkit-mask-image: url(possibilities4.svg);
+}
+.icon-possibilities5{
+    mask-image: url(possibilities5.svg);
+    -webkit-mask-image: url(possibilities5.svg);
+}
+.icon-possibilities6{
+    mask-image: url(possibilities6.svg);
+    -webkit-mask-image: url(possibilities6.svg);
+}
+.icon-possibilities7{
+    mask-image: url(possibilities7.svg);
+    -webkit-mask-image: url(possibilities7.svg);
+}
+.icon-arrow-left{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+}

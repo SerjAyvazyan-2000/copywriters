@@ -1,0 +1,166 @@
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --light-wheat: rgba(248, 248, 248, 1);
+    --black: rgba(23, 23, 23, 1);
+    --lighy-black: rgba(0, 0, 0, 0.1);
+    --lighy-black2: rgba(40, 40, 40, 1);
+    --lighy-black3: rgba(33, 33, 33, 1);
+    --green: rgba(70, 197, 136, 1);
+    --light-green: rgba(229, 255, 243, 1);;
+    --dark-black: rgba(0, 0, 0, 1);
+    --lighy-black4: rgba(30, 30, 32, 0.75);
+    --dark-black2: rgba(0, 0, 0, 0.75);
+
+    --yellow: rgba(255, 247, 89, 1);
+
+    --dark-yellow: rgba(239, 204, 78, 1);
+    --gray: rgba(81, 81, 81, 1);
+    --light-yellow: rgba(255, 246, 169, 1);
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+.btn-yellow {
+    background: var(--yellow);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px 36px;
+    color: var(--black);
+    border-radius: 100px;
+    transition: .3s;
+
+}
+
+.btn-yellow:hover {
+    background: var(--light-yellow);
+}
+
+.section {
+    margin-top: 80px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38.4px;
+    text-align: center;
+    color: var(--black);
+
+}
+
+.block-cnt {
+    margin-top: 40px;
+}
+
+.section-sub-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 4px;
+    color: var(--gray);
+
+}
+
+.btn-black {
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white);
+    background: var(--black);
+    border-radius: 100px;
+    transition: .3s;
+
+}
+
+.btn-black:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+.img-mobile {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+    .desktop-text-wrap {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+
+    }
+
+    .section-title {
+        font-size: 24px;
+        line-height: 28.8px;
+
+    }
+
+    .mobile-text-wrap {
+        display: block;
+    }
+
+    .section-sub-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .block-cnt{
+        margin-top: 32px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+}
