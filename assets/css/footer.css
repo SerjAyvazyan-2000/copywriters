@@ -84,6 +84,12 @@ footer {
     font-size: 14px;
     line-height: 21px;
     color: var(--dark-black);
+    transition: .3s;
+
+}
+
+.footer-menu-link:hover {
+    color: var(--gray);
 
 }
 .footer-clue{

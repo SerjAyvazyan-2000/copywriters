@@ -54,7 +54,7 @@ header.moved .header-body {
     transition: .3s;
 }
 .menu-link:hover {
-    color: var(--dark-black);
+    color: var(--dark-yellow);
 
 }
 
