@@ -5,22 +5,27 @@
 let creatingSwiper = new Swiper(".reviews-swiper", {
     effect: "coverflow",
     centeredSlides: true,
-    // autoplay:true,
+    observer: true,
+    observeParents: true,
     cursor: null,
     loop: true,
-    // initialSlide: 2,
+    initialSlide: 2,
+    speed: 500,
+    loopAdditionalSlides: 3,
+    watchSlidesProgress: true,
+    watchSlidesVisibility: true,
+
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
 
     },
 
-
     coverflowEffect: {
         rotate: 0,
         stretch: 0,
-        depth: 60,
-        modifier:4,
+        depth: 80,
+        modifier:3,
         slideShadows: false,
     },
     navigation: {
@@ -55,12 +60,18 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
 
 });
 
-const slides = document.querySelectorAll(".reviews-swiper .swiper-slide");
+// const slides = document.querySelectorAll(".reviews-swiper .swiper-slide");
+//
+// slides.forEach((slide, index) => {
+//     slide.addEventListener("click", () => {
+//         creatingSwiper.slideTo(index);
+//     });
+// });
 
-slides.forEach((slide, index) => {
-    slide.addEventListener("click", () => {
-        creatingSwiper.slideTo(index);
-    });
+document.querySelector('.swiper-pagination').addEventListener('click', () => {
+    setTimeout(() => {
+        creatingSwiper.update();
+    }, 50);
 });
 
 creatingSwiper.on("slideChange", function () {
