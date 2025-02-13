@@ -1088,6 +1088,9 @@
         gap: 12px;
 
     }
+    .hero-media img {
+        border-radius: 16px;
+    }
 }
 
 @media (max-width: 400px) {
