@@ -12,7 +12,9 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
+
     },
+
 
     coverflowEffect: {
         rotate: 0,
@@ -46,7 +48,7 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
 
         },
         1200: {
-            slidesPerView: 2.8,
+            slidesPerView: 3,
             spaceBetween:12,
         },
     }
