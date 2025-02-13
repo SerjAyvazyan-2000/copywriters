@@ -18,7 +18,7 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
         rotate: 0,
         stretch: 0,
         depth: 80,
-        modifier:5,
+        modifier:4,
         slideShadows: false,
     },
     navigation: {
