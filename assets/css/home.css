@@ -516,7 +516,7 @@
 }
 
 .reviews-swiper {
-    max-width: 400px;
+    max-width: 630px;
     width: 100%;
     margin: 0 auto;
 }
@@ -793,9 +793,6 @@
         display: none;
     }
 
-    .reviews-swiper {
-        max-width: 432px;
-    }
 
     .about-mobile-btn {
         display: flex;
@@ -819,6 +816,9 @@
         flex-direction: column;
         align-items: stretch;
         border-radius: 16px;
+    }
+    .reviews-swiper{
+        max-width: 430px;
     }
 
     .possibilities-item-text {
@@ -846,6 +846,7 @@
     .desktop-text-wrap {
         display: inline;
     }
+
 
     .reviews-arrow {
         display: none !important;
@@ -945,6 +946,12 @@
     .hero-section {
         padding-top: 130px;
     }
+    .reviews-swiper {
+        max-width: 280px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .reviews-text{
         font-size: 14px;
         line-height: 21.6px;
@@ -1002,9 +1009,7 @@
     .text-mobile{
         display: inline-block;
     }
-    .reviews-swiper{
-        max-width: 280px;
-    }
+
 
     .about-mobile-btn button {
         width: 100%;
