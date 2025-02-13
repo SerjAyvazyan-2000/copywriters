@@ -17,7 +17,7 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
     coverflowEffect: {
         rotate: 0,
         stretch: 0,
-        depth: 80,
+        depth: 60,
         modifier:4,
         slideShadows: false,
     },
@@ -46,7 +46,7 @@ let creatingSwiper = new Swiper(".reviews-swiper", {
 
         },
         1200: {
-            slidesPerView: 3,
+            slidesPerView: 2.8,
             spaceBetween:12,
         },
     }
